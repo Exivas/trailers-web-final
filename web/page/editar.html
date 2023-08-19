@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cms.css">
+    <title>CMS</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Actualizar Película</title>
+</head>
+<body>
+    <header><center>
+                                                                 
+        <a href="./add.html">Agregar</a>
+        <a href="./editar.html">Editar</a>
+        <a href="./eliminar.html">Eliminar</a>
+    </center></header>
+    <div class="editar">
+        <h2>Actualizar Película</h2>
+    <form id="editar-form">
+        <label for="id">ID de la Película para editar:</label>
+        <input type="number" id="id" name="id"><br>
+
+        <label for="Titulo">Título:</label>
+        <input type="text" id="Titulo" name="Titulo"><br>
+
+        <label for="Año">Año:</label>
+        <input type="text" id="Año" name="Año"><br>
+
+        <label for="Director">Director:</label>
+        <input type="text" id="Director" name="Director"><br>
+
+        <label for="Actores">Actores:</label>
+        <input type="text" id="Actores" name="Actores"><br>
+
+        <label for="Reseña">Reseña:</label>
+        <input type="text" id="Reseña" name="Reseña"><br>
+
+        <label for="Imagen">Imagen:</label>
+        <input type="text" id="Imagen" name="Imagen"><br>
+
+        <label for="Link">Link:</label>
+        <input type="text" id="Link" name="Link"><br>
+        <button type="submit">Actualizar</button>
+    </form>
+    </div>
+    <div id="editar-container">
+
+    </div>
+</body>
+<script type="module" src="./editar.js"></script>
+</html>
